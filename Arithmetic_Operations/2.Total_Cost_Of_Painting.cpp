@@ -13,6 +13,6 @@ int main(){
     sqFeet = l * w;
     totalSqFeet = sqFeet / 10.25;
     total = totalSqFeet * 525;
-    std::cout << "Total cost of painting: " << total;
+    std::cout << "Total cost of painting: " << total << std::endl;
     return 0;
 }
